@@ -24,3 +24,4 @@ class Preceptron:
 		scores= self.model.evaluate(self.entradas,self.salida)
 		print(self.model.metrics_names[1],scores[1]*1000)
 		print(self.model.predict(self.entradas).round())
+		input()
