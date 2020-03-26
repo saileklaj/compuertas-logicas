@@ -9,7 +9,7 @@ class operadores_logicos:
 		salida=np.array([(0),(0),(0),(1)],"float32")
 		ptr1=ptr.Preceptron(entradas,salida)
 		ptr1.perceptron()
-		input()
+		
 
 	def operador_or():
 		
